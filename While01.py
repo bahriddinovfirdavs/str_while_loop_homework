@@ -6,4 +6,4 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    return s
