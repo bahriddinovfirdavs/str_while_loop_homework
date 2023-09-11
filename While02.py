@@ -9,4 +9,3 @@ def main(s):
     while s:
         return len(s),s
 
-print(main(str(input())))
