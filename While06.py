@@ -8,4 +8,4 @@ def main(s):
         int: return answer
     """
     while s:
-        return len(s),s
+        return  len(s),s
