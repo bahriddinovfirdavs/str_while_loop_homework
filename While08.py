@@ -6,5 +6,4 @@ def main(s):
     Returns:
         int: return answer
     """
-    while s:
-        return len(s),s
+
