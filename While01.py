@@ -6,7 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    while s==s:
-        return len(s),s
-
-        
+    i=0
+    n=len(s)
+    ans=0
+    while i<n:
+        if s[i] in '1234567890':
+            ans+=1
+        i+=1
+    return ans
