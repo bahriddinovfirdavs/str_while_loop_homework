@@ -11,7 +11,7 @@ def main(s):
     n=len(s)
     ans=0
     while i<n:
-        if s[i] in 'qwrtypsdfghjklmnbvcxz':
+        if s[i] in 'qwrtyplkjhgfdszxcvbnmQWRTYPLKJHGFDSZXCVBNM':
             ans+=1
         i+=1
     return ans
